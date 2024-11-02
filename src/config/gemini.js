@@ -12,7 +12,7 @@ const {
   } = require("@google/generative-ai");
   
   const MODEL_NAME = "gemini-1.0-pro";
-  const API_KEY = "AIzaSyBHPRnck0_q8JcYHHIPq89zVL-pLMd6FrQ";
+  const API_KEY = "AIzaSyB6_V1oo5F7p71g7jqlSYa2ZMymCpNmUww";
   
   async function runChat(prompt) {
     const genAI = new GoogleGenerativeAI(API_KEY);
